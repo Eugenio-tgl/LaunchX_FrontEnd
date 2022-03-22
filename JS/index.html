@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content=" IE = edge">
+        <meta name = "vieport" content="width=device-width, initial-scale=1.0">
+        <title> Pokedex</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <div class="box">
+            
+            <form>
+                <input type="text" id="pokeName" name="pokeName" placeholder="Type...">
+                <input onclick="fetchPokemon()" type="button"  name="" value="Search">
+            </form>
+        </div>
+
+        <div class="Image">
+            <img src="img/Question.png" alt="Pokemon" id="pokeImg" width="150vh" height=auto>
+        </div>
+
+        <div class="informacion">
+            
+            <div class="Name">
+                <h1 id="pName"> NAME</h1>
+            </div>
+            <div class="Type">
+                <h1 id="pType"> TYPE</h1>
+            </div>
+
+            <div class="Movements">
+                <h2 id="pMove1"> Ab 1</h2>
+                <h2 id="pMove2"> Ab 2</h2>
+            </div>
+            
+            <div class="Stats">
+                <div>
+                    <table>
+                        <tr>
+                            <th>
+                                <h2>HP: <span id="pStat1"> </span></h2>
+                            </th>
+                            <th>
+                                <h2>ATT: <span id="pStat2"> </span></h2>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <h2>DEF: <span id="pStat3"> </span></h2>
+                            </th>
+                            <th>
+                                <h2>SATT: <span id="pStat4"> </span></h2>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <h2>SDEF: <span id="pStat5"> </span></h2>
+                            </th>
+                            <th>
+                                <h2>SPEED: <span id="pStat6"> </span></h2>
+                            </th>
+                        </tr>
+                    </table>
+                </div>                
+            </div>
+            
+            
+            
+            
+            
+            
+
+        </div>
+        
+        
+        
+    </body>
+    
+
+</html>

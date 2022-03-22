@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    background-image: url("img/Pokedex.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 55vh;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+
+.box{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 2vh;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"]{
+    border: none;
+    outline: none;
+    width: 25vh;
+    padding: 5px 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="button"]{
+    border: none;
+    outline: none;
+    width: 10vh;
+    padding: 5px 10px;
+    background-color: #ffc107;
+    border-radius: 0 25px 25px 0;
+}
+
+input[type="button"]:hover
+{
+    background-color: #dd7e11;
+}
+
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+.informacion{
+    padding-top: 30vh;
+    text-align: center;
+    padding-left: 19vh;
+    align-items: center;
+}
+    
+
+.Stats{
+    
+    padding: 2vh 50vh 0 65vh;
+    text-align: left;
+    align-items: center;
+}
+
+img{
+    border-radius: 18px;
+}
+
+.Image{
+    position: absolute;
+    top: 32%;
+    left: 41.3%;
+    
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    color: rgb(255, 255, 255);
+}
